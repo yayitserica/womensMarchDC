@@ -7,13 +7,31 @@
 //
 
 import UIKit
+import MapKit
 
 class MapViewController: UIViewController {
 
+    @IBOutlet weak var mapView: MKMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setMapCenter()
+        
+        
+    }
+    
+    func setMapCenter() {
+        //region of the screen that the map is showing; this is a function that makes an object (like a factory)
+        let marchLat:Double = 38.8877982
+        let marchLong: Double = -77.0174687
+        
+        let marchCoordinate = CLLocationCoordinate2D(latitude: marchLat, longitude: marchLong)
+        
+        //how many meters do you want to display, how much of the map do you want to show
+        let latitudinalMeters: CLLocationDistance = 1000
+        let longitudinalMeters: CLLocationDistance = 1000
+        let marchRegion = MKCoordinateRegionMakeWithDistance(marchCoordinate, latitudinalMeters, longitudinalMeters)
+        mapView.setRegion(marchRegion, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

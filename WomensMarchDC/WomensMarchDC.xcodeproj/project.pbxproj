@@ -15,9 +15,11 @@
 		450990311E27EEB100D3148C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450990301E27EEB100D3148C /* Constants.swift */; };
 		450990351E27F02E00D3148C /* Asimov.otf in Resources */ = {isa = PBXBuildFile; fileRef = 450990341E27F02E00D3148C /* Asimov.otf */; };
 		4509903B1E27F1F700D3148C /* AsimovWid.otf in Resources */ = {isa = PBXBuildFile; fileRef = 450990391E27F1F700D3148C /* AsimovWid.otf */; };
-		4509903F1E280C4800D3148C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509903E1E280C4800D3148C /* RegisterViewController.swift */; };
 		450990441E28666A00D3148C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450990431E28666A00D3148C /* MapViewController.swift */; };
 		450990461E286D9000D3148C /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450990451E286D9000D3148C /* FAQViewController.swift */; };
+		45B7E5111E298CE8000CD90B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7E5101E298CE8000CD90B /* RegisterViewController.swift */; };
+		45B7E5131E298D19000CD90B /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7E5121E298D19000CD90B /* MapAnnotation.swift */; };
+		45FAB7E71E29784E00B40525 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FAB7E61E29784E00B40525 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +33,11 @@
 		450990301E27EEB100D3148C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		450990341E27F02E00D3148C /* Asimov.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Asimov.otf; path = ../Asimov.otf; sourceTree = "<group>"; };
 		450990391E27F1F700D3148C /* AsimovWid.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AsimovWid.otf; path = ../AsimovWid.otf; sourceTree = "<group>"; };
-		4509903E1E280C4800D3148C /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = ../RegisterViewController.swift; sourceTree = "<group>"; };
 		450990431E28666A00D3148C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		450990451E286D9000D3148C /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		45B7E5101E298CE8000CD90B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		45B7E5121E298D19000CD90B /* MapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		45FAB7E61E29784E00B40525 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FAB7E71E29784E00B40525 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +57,7 @@
 			children = (
 				4509901D1E27E72900D3148C /* WomensMarchDC */,
 				4509901C1E27E72900D3148C /* Products */,
+				45FAB7E51E29784E00B40525 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,11 +89,20 @@
 			isa = PBXGroup;
 			children = (
 				450990201E27E72900D3148C /* ViewController.swift */,
-				4509903E1E280C4800D3148C /* RegisterViewController.swift */,
+				45B7E5101E298CE8000CD90B /* RegisterViewController.swift */,
 				450990431E28666A00D3148C /* MapViewController.swift */,
+				45B7E5121E298D19000CD90B /* MapAnnotation.swift */,
 				450990451E286D9000D3148C /* FAQViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		45FAB7E51E29784E00B40525 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45FAB7E61E29784E00B40525 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +139,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = ZG53357D46;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -167,10 +187,11 @@
 			files = (
 				450990211E27E72900D3148C /* ViewController.swift in Sources */,
 				4509901F1E27E72900D3148C /* AppDelegate.swift in Sources */,
+				45B7E5111E298CE8000CD90B /* RegisterViewController.swift in Sources */,
 				450990311E27EEB100D3148C /* Constants.swift in Sources */,
 				450990461E286D9000D3148C /* FAQViewController.swift in Sources */,
 				450990441E28666A00D3148C /* MapViewController.swift in Sources */,
-				4509903F1E280C4800D3148C /* RegisterViewController.swift in Sources */,
+				45B7E5131E298D19000CD90B /* MapAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
