@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4509901F1E27E72900D3148C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509901E1E27E72900D3148C /* AppDelegate.swift */; };
+		450990211E27E72900D3148C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450990201E27E72900D3148C /* ViewController.swift */; };
+		450990241E27E72900D3148C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450990221E27E72900D3148C /* Main.storyboard */; };
+		450990261E27E72900D3148C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450990251E27E72900D3148C /* Assets.xcassets */; };
+		450990291E27E72900D3148C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450990271E27E72900D3148C /* LaunchScreen.storyboard */; };
+		450990311E27EEB100D3148C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450990301E27EEB100D3148C /* Constants.swift */; };
+		450990351E27F02E00D3148C /* Asimov.otf in Resources */ = {isa = PBXBuildFile; fileRef = 450990341E27F02E00D3148C /* Asimov.otf */; };
+		4509903B1E27F1F700D3148C /* AsimovWid.otf in Resources */ = {isa = PBXBuildFile; fileRef = 450990391E27F1F700D3148C /* AsimovWid.otf */; };
+		4509903F1E280C4800D3148C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509903E1E280C4800D3148C /* RegisterViewController.swift */; };
+		450990441E28666A00D3148C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450990431E28666A00D3148C /* MapViewController.swift */; };
+		450990461E286D9000D3148C /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450990451E286D9000D3148C /* FAQViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4509901B1E27E72900D3148C /* WomensMarchDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WomensMarchDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4509901E1E27E72900D3148C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		450990201E27E72900D3148C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		450990231E27E72900D3148C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		450990251E27E72900D3148C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		450990281E27E72900D3148C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4509902A1E27E72900D3148C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450990301E27EEB100D3148C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		450990341E27F02E00D3148C /* Asimov.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Asimov.otf; path = ../Asimov.otf; sourceTree = "<group>"; };
+		450990391E27F1F700D3148C /* AsimovWid.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AsimovWid.otf; path = ../AsimovWid.otf; sourceTree = "<group>"; };
+		4509903E1E280C4800D3148C /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = ../RegisterViewController.swift; sourceTree = "<group>"; };
+		450990431E28666A00D3148C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		450990451E286D9000D3148C /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		450990181E27E72900D3148C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		450990121E27E72900D3148C = {
+			isa = PBXGroup;
+			children = (
+				4509901D1E27E72900D3148C /* WomensMarchDC */,
+				4509901C1E27E72900D3148C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4509901C1E27E72900D3148C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4509901B1E27E72900D3148C /* WomensMarchDC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4509901D1E27E72900D3148C /* WomensMarchDC */ = {
+			isa = PBXGroup;
+			children = (
+				4509901E1E27E72900D3148C /* AppDelegate.swift */,
+				450990401E280C4F00D3148C /* Controller */,
+				450990301E27EEB100D3148C /* Constants.swift */,
+				450990221E27E72900D3148C /* Main.storyboard */,
+				450990251E27E72900D3148C /* Assets.xcassets */,
+				450990271E27E72900D3148C /* LaunchScreen.storyboard */,
+				4509902A1E27E72900D3148C /* Info.plist */,
+				450990341E27F02E00D3148C /* Asimov.otf */,
+				450990391E27F1F700D3148C /* AsimovWid.otf */,
+			);
+			path = WomensMarchDC;
+			sourceTree = "<group>";
+		};
+		450990401E280C4F00D3148C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				450990201E27E72900D3148C /* ViewController.swift */,
+				4509903E1E280C4800D3148C /* RegisterViewController.swift */,
+				450990431E28666A00D3148C /* MapViewController.swift */,
+				450990451E286D9000D3148C /* FAQViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4509901A1E27E72900D3148C /* WomensMarchDC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4509902D1E27E72900D3148C /* Build configuration list for PBXNativeTarget "WomensMarchDC" */;
+			buildPhases = (
+				450990171E27E72900D3148C /* Sources */,
+				450990181E27E72900D3148C /* Frameworks */,
+				450990191E27E72900D3148C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WomensMarchDC;
+			productName = WomensMarchDC;
+			productReference = 4509901B1E27E72900D3148C /* WomensMarchDC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		450990131E27E72900D3148C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Erica Millado";
+				TargetAttributes = {
+					4509901A1E27E72900D3148C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZG53357D46;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 450990161E27E72900D3148C /* Build configuration list for PBXProject "WomensMarchDC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 450990121E27E72900D3148C;
+			productRefGroup = 4509901C1E27E72900D3148C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4509901A1E27E72900D3148C /* WomensMarchDC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		450990191E27E72900D3148C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4509903B1E27F1F700D3148C /* AsimovWid.otf in Resources */,
+				450990351E27F02E00D3148C /* Asimov.otf in Resources */,
+				450990291E27E72900D3148C /* LaunchScreen.storyboard in Resources */,
+				450990261E27E72900D3148C /* Assets.xcassets in Resources */,
+				450990241E27E72900D3148C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		450990171E27E72900D3148C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450990211E27E72900D3148C /* ViewController.swift in Sources */,
+				4509901F1E27E72900D3148C /* AppDelegate.swift in Sources */,
+				450990311E27EEB100D3148C /* Constants.swift in Sources */,
+				450990461E286D9000D3148C /* FAQViewController.swift in Sources */,
+				450990441E28666A00D3148C /* MapViewController.swift in Sources */,
+				4509903F1E280C4800D3148C /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		450990221E27E72900D3148C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				450990231E27E72900D3148C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		450990271E27E72900D3148C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				450990281E27E72900D3148C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4509902B1E27E72900D3148C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4509902C1E27E72900D3148C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4509902E1E27E72900D3148C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZG53357D46;
+				INFOPLIST_FILE = WomensMarchDC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yayitserica.WomensMarchDC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4509902F1E27E72900D3148C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZG53357D46;
+				INFOPLIST_FILE = WomensMarchDC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yayitserica.WomensMarchDC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		450990161E27E72900D3148C /* Build configuration list for PBXProject "WomensMarchDC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4509902B1E27E72900D3148C /* Debug */,
+				4509902C1E27E72900D3148C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4509902D1E27E72900D3148C /* Build configuration list for PBXNativeTarget "WomensMarchDC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4509902E1E27E72900D3148C /* Debug */,
+				4509902F1E27E72900D3148C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 450990131E27E72900D3148C /* Project object */;
+}
