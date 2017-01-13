@@ -32,6 +32,10 @@ class MapViewController: UIViewController {
         let longitudinalMeters: CLLocationDistance = 1000
         let marchRegion = MKCoordinateRegionMakeWithDistance(marchCoordinate, latitudinalMeters, longitudinalMeters)
         mapView.setRegion(marchRegion, animated: true)
+        
+        //makes a pin for location
+        let mapPin = MapAnnotation(title: "Women's March Meeting Point", subtitle: "Independence Ave. & Third St. SW", coordinate: marchCoordinate)
+        mapView.addAnnotation(mapPin)
     }
 
     override func didReceiveMemoryWarning() {
