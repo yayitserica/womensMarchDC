@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     @IBOutlet weak var quoteLabel: UILabel!
    
@@ -21,7 +21,6 @@ class ViewController: UIViewController {
 
     func formatViews() {
         quoteLabel.adjustsFontSizeToFitWidth = true
-        navigationController?.isNavigationBarHidden = true
     }
     
     func getRegisterPage() {

@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4509901F1E27E72900D3148C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509901E1E27E72900D3148C /* AppDelegate.swift */; };
-		450990211E27E72900D3148C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450990201E27E72900D3148C /* ViewController.swift */; };
-		450990241E27E72900D3148C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450990221E27E72900D3148C /* Main.storyboard */; };
+		450990211E27E72900D3148C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450990201E27E72900D3148C /* HomeViewController.swift */; };
 		450990261E27E72900D3148C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450990251E27E72900D3148C /* Assets.xcassets */; };
 		450990291E27E72900D3148C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450990271E27E72900D3148C /* LaunchScreen.storyboard */; };
 		450990311E27EEB100D3148C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450990301E27EEB100D3148C /* Constants.swift */; };
@@ -19,14 +18,14 @@
 		450990461E286D9000D3148C /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450990451E286D9000D3148C /* FAQViewController.swift */; };
 		45B7E5111E298CE8000CD90B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7E5101E298CE8000CD90B /* RegisterViewController.swift */; };
 		45B7E5131E298D19000CD90B /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7E5121E298D19000CD90B /* MapAnnotation.swift */; };
+		45FA57C71E2ADC8C00D4F7D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FA57C61E2ADC8C00D4F7D8 /* Main.storyboard */; };
 		45FAB7E71E29784E00B40525 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FAB7E61E29784E00B40525 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4509901B1E27E72900D3148C /* WomensMarchDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WomensMarchDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4509901E1E27E72900D3148C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		450990201E27E72900D3148C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		450990231E27E72900D3148C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		450990201E27E72900D3148C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		450990251E27E72900D3148C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		450990281E27E72900D3148C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4509902A1E27E72900D3148C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +36,7 @@
 		450990451E286D9000D3148C /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
 		45B7E5101E298CE8000CD90B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		45B7E5121E298D19000CD90B /* MapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		45FA57C61E2ADC8C00D4F7D8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		45FAB7E61E29784E00B40525 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -75,8 +75,8 @@
 				4509901E1E27E72900D3148C /* AppDelegate.swift */,
 				450990401E280C4F00D3148C /* Controller */,
 				450990301E27EEB100D3148C /* Constants.swift */,
-				450990221E27E72900D3148C /* Main.storyboard */,
 				450990251E27E72900D3148C /* Assets.xcassets */,
+				45FA57C61E2ADC8C00D4F7D8 /* Main.storyboard */,
 				450990271E27E72900D3148C /* LaunchScreen.storyboard */,
 				4509902A1E27E72900D3148C /* Info.plist */,
 				450990341E27F02E00D3148C /* Asimov.otf */,
@@ -88,7 +88,7 @@
 		450990401E280C4F00D3148C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				450990201E27E72900D3148C /* ViewController.swift */,
+				450990201E27E72900D3148C /* HomeViewController.swift */,
 				45B7E5101E298CE8000CD90B /* RegisterViewController.swift */,
 				450990431E28666A00D3148C /* MapViewController.swift */,
 				45B7E5121E298D19000CD90B /* MapAnnotation.swift */,
@@ -171,10 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4509903B1E27F1F700D3148C /* AsimovWid.otf in Resources */,
+				45FA57C71E2ADC8C00D4F7D8 /* Main.storyboard in Resources */,
 				450990351E27F02E00D3148C /* Asimov.otf in Resources */,
 				450990291E27E72900D3148C /* LaunchScreen.storyboard in Resources */,
 				450990261E27E72900D3148C /* Assets.xcassets in Resources */,
-				450990241E27E72900D3148C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				450990211E27E72900D3148C /* ViewController.swift in Sources */,
+				450990211E27E72900D3148C /* HomeViewController.swift in Sources */,
 				4509901F1E27E72900D3148C /* AppDelegate.swift in Sources */,
 				45B7E5111E298CE8000CD90B /* RegisterViewController.swift in Sources */,
 				450990311E27EEB100D3148C /* Constants.swift in Sources */,
@@ -198,14 +198,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		450990221E27E72900D3148C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				450990231E27E72900D3148C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		450990271E27E72900D3148C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
