@@ -18,7 +18,7 @@ class DataStore {
         
         self.bathrooms.removeAll()
         
-        APIClient.getJSON { (bathroomsArray) in
+        APIClient.getbathroomJSON { (bathroomsArray) in
             guard let unwrappedBathroomsArray = bathroomsArray else { return }
             for bathroom in unwrappedBathroomsArray {
                 let name = bathroom["name"] as? String ?? ""
@@ -29,6 +29,15 @@ class DataStore {
                 self.bathrooms.append(bathroom)
             }
             completion()
+        }
+    }
+    
+    func getWeatherData(completion:@escaping (String, Int)->Void) {
+        APIClient.getWeatherJSON { (weatherDictionary) in
+            let currentlyDict = weatherDictionary["currently"] as? [String:Any] ?? [:]
+            let summary = currentlyDict["summary"] as? String ?? ""
+            let temperature = currentlyDict["temperature"] as? Int ?? 0
+            completion(summary, temperature)
         }
     }
 }

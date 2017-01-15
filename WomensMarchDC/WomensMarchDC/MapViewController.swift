@@ -17,7 +17,6 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var mapView: MKMapView!
     
-    let constants = Constants()
     let store = DataStore.sharedInstance
     var gotBathrooms:Bool = false
     
@@ -29,7 +28,6 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 
     func getBathrooms() {
         store.createBathroomsArray {
-            print("array count is \(self.store.bathrooms.count)")
             for bathroom in self.store.bathrooms {
                 let bathCoord = CLLocationCoordinate2D(latitude: bathroom.latitude, longitude: bathroom.longitude)
                 let bathPin = MapAnnotation(title: bathroom.name, subtitle: bathroom.street, coordinate: bathCoord, imageName: UIImage(named:"Toilet-48.png")!)
@@ -44,10 +42,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     func setMapCenter() {
         
         //region of the screen that the map is showing; this is a function that makes an object (like a factory)
-        let marchLat:Double = 38.887590
-        let marchLong: Double = -77.015280
-        
-        let marchCoordinate = CLLocationCoordinate2D(latitude: marchLat, longitude: marchLong)
+        let marchCoordinate = CLLocationCoordinate2D(latitude: Constants.marchLat, longitude: Constants.marchLong)
         
         //how many meters do you want to display, how much of the map do you want to show
         let latitudinalMeters: CLLocationDistance = 1000

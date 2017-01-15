@@ -22,23 +22,7 @@ class RegisterViewController: UIViewController {
     func getRegisterPage() {
          let url = URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSdzAOhSz5i7Vw88k9z7s5crNKsjmtoFigkb1jSuAQJ3-57uKg/viewform?c=0&w=1") ?? URL(string: "https://www.womensmarch.com/")
         self.webView.loadRequest(URLRequest(url: url!))
-        
-        
      }
-    
-    
-    
-    
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

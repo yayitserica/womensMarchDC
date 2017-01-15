@@ -12,20 +12,22 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var quoteLabel: UILabel!
    
+    let store = DataStore.sharedInstance
     
     override func viewDidLoad() {
         super.viewDidLoad()
         formatViews()
-        
+        getCurrentWeather()
     }
 
     func formatViews() {
         quoteLabel.adjustsFontSizeToFitWidth = true
     }
     
-    func getRegisterPage() {
-        guard URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSdzAOhSz5i7Vw88k9z7s5crNKsjmtoFigkb1jSuAQJ3-57uKg/viewform?c=0&w=1") != nil else { return }
-        
+    func getCurrentWeather() {
+        self.store.getWeatherData { (summary, temp) in
+            <#code#>
+        }
     }
 
 
