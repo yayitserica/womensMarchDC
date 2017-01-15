@@ -9,21 +9,43 @@
 import UIKit
 import MapKit
 
-class MapViewController: UIViewController {
+class CustomPointAnnotation: MKPointAnnotation {
+    var imageName: String!
+}
+
+class MapViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var mapView: MKMapView!
+    
+    let constants = Constants()
+    let store = DataStore.sharedInstance
+    var gotBathrooms:Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setMapCenter()
-        
-        
+       self.mapView.delegate = self
+    }
+
+    func getBathrooms() {
+        store.createBathroomsArray {
+            print("array count is \(self.store.bathrooms.count)")
+            for bathroom in self.store.bathrooms {
+                let bathCoord = CLLocationCoordinate2D(latitude: bathroom.latitude, longitude: bathroom.longitude)
+                let bathPin = MapAnnotation(title: bathroom.name, subtitle: bathroom.street, coordinate: bathCoord, imageName: UIImage(named:"Toilet-48.png")!)
+                OperationQueue.main.addOperation {
+                    self.mapView.addAnnotation(bathPin)
+                }
+                self.gotBathrooms = true
+            }
+        }
     }
     
     func setMapCenter() {
+        
         //region of the screen that the map is showing; this is a function that makes an object (like a factory)
-        let marchLat:Double = 38.8877982
-        let marchLong: Double = -77.0174687
+        let marchLat:Double = 38.887590
+        let marchLong: Double = -77.015280
         
         let marchCoordinate = CLLocationCoordinate2D(latitude: marchLat, longitude: marchLong)
         
@@ -31,23 +53,26 @@ class MapViewController: UIViewController {
         let latitudinalMeters: CLLocationDistance = 1000
         let longitudinalMeters: CLLocationDistance = 1000
         let marchRegion = MKCoordinateRegionMakeWithDistance(marchCoordinate, latitudinalMeters, longitudinalMeters)
-        mapView.setRegion(marchRegion, animated: true)
+        self.mapView.setRegion(marchRegion, animated: true)
         
         //makes a pin for location
-        let mapPin = MapAnnotation(title: "Women's March Meeting Point", subtitle: "Independence Ave. & Third St. SW", coordinate: marchCoordinate)
-        mapView.addAnnotation(mapPin)
+        let mapPin = MapAnnotation(title: "Women's March Meeting Point", subtitle: "Independence Ave. & Third St. SW", coordinate: marchCoordinate, imageName: UIImage(named:"Female-48.png")!)
+        
+        self.mapView.addAnnotation(mapPin)
+        getBathrooms()
+ 
     }
 
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+//    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+//    
+//        let annotationView = MKPinAnnotationView()
+//        annotationView.pinTintColor = constants.navy
+//        annotationView.image = UIImage(named: "Female-48.png")
+//        if gotBathrooms {
+//            annotationView.pinTintColor = constants.navy
+//        }
+//        
+//        return annotationView
+//    }
 
 }
