@@ -35,20 +35,53 @@
                                 <rect key="frame" x="16" y="0.0" width="344" height="567"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Rise of the Woman = The Rise of the Nation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="X8N-ig-Uww">
-                                <rect key="frame" x="16" y="516" width="343" height="16.5"/>
+                                <rect key="frame" x="16" y="497" width="343" height="16.5"/>
                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="14"/>
                                 <color key="textColor" red="0.96470588235294119" green="0.92549019607843142" blue="0.792156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current D.C. Weather:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="yfM-nZ-q4Q">
+                                <rect key="frame" x="16" y="521" width="202" height="21.5"/>
+                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
+                                <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="nAn-v4-tbE">
+                                <rect key="frame" x="278" y="552.5" width="81" height="19"/>
+                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.92549019610000005" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmU-BV-wqN">
+                                <rect key="frame" x="226" y="521" width="26" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="20"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.92549019610000005" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="°" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVf-dP-tzN">
+                                <rect key="frame" x="260" y="521" width="100" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="20"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.92549019610000005" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="tcP-iY-brx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="1Au-zr-6ez"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gVf-dP-tzN" secondAttribute="trailing" constant="-1" id="2FU-eA-Td7"/>
+                            <constraint firstItem="yfM-nZ-q4Q" firstAttribute="top" secondItem="nmU-BV-wqN" secondAttribute="top" id="2ln-Q9-4al"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tcP-iY-brx" secondAttribute="trailing" constant="-1" id="F2X-Ql-Q4K"/>
+                            <constraint firstItem="nAn-v4-tbE" firstAttribute="top" secondItem="gVf-dP-tzN" secondAttribute="bottom" constant="8" id="Lgv-gP-Tnh"/>
                             <constraint firstAttribute="leadingMargin" secondItem="X8N-ig-Uww" secondAttribute="leading" id="MwD-Ne-TvO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="X8N-ig-Uww" secondAttribute="trailing" id="NB4-iy-hgf"/>
-                            <constraint firstItem="X8N-ig-Uww" firstAttribute="top" secondItem="tcP-iY-brx" secondAttribute="bottom" constant="-51" id="Nh0-Hf-qhB"/>
+                            <constraint firstItem="X8N-ig-Uww" firstAttribute="top" secondItem="tcP-iY-brx" secondAttribute="bottom" constant="-70" id="Nh0-Hf-qhB"/>
+                            <constraint firstItem="yfM-nZ-q4Q" firstAttribute="top" secondItem="X8N-ig-Uww" secondAttribute="bottom" constant="7.5" id="PaS-cn-LQs"/>
+                            <constraint firstItem="gVf-dP-tzN" firstAttribute="leading" secondItem="nmU-BV-wqN" secondAttribute="trailing" constant="8" id="QJo-bG-IU0"/>
+                            <constraint firstItem="nmU-BV-wqN" firstAttribute="top" secondItem="gVf-dP-tzN" secondAttribute="top" id="SAP-cU-FhF"/>
                             <constraint firstAttribute="leadingMargin" secondItem="tcP-iY-brx" secondAttribute="leading" id="bx1-4J-9Ji"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="yfM-nZ-q4Q" secondAttribute="leading" id="hWf-aq-GXp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nAn-v4-tbE" secondAttribute="trailing" id="ixO-wo-uqs"/>
+                            <constraint firstItem="nmU-BV-wqN" firstAttribute="leading" secondItem="yfM-nZ-q4Q" secondAttribute="trailing" constant="8" id="nwO-Ox-ECh"/>
                             <constraint firstItem="tcP-iY-brx" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.85" id="per-qB-hdS"/>
                         </constraints>
                     </view>
@@ -56,11 +89,13 @@
                     <navigationItem key="navigationItem" id="j3S-7S-bDH"/>
                     <connections>
                         <outlet property="quoteLabel" destination="X8N-ig-Uww" id="6vy-AN-F2p"/>
+                        <outlet property="summaryLabel" destination="nAn-v4-tbE" id="3DE-2m-hD3"/>
+                        <outlet property="tempLabel" destination="nmU-BV-wqN" id="gGY-3s-icO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-263" y="1502"/>
+            <point key="canvasLocation" x="-263.19999999999999" y="1501.7991004497753"/>
         </scene>
         <!--Register-->
         <scene sceneID="kQL-7t-XOR">
@@ -161,7 +196,7 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="Uix-la-A7v">
                                                 <rect key="frame" x="20" y="395.5" width="343" height="281.5"/>
-                                                <mutableString key="text">Gloria Steinem, Harry Belafonte and Dolores Huerta are serving as honorary co-chairs.  Amnesty International USA, the Mothers of the Movement, the National Center for Lesbian Rights, the National Organizational for Women (NOW), MoveOn.org, Human Rights Watch, CODEPINK, BlackGirlsRock, NAACP, the American Indian Movement, Emily's List, UniteWomen.org, Girls Who Code and many, many more organizations and groups are partners.  Celebrities including Cher, Scarlett Johansson, Chelsea Handler, Samantha Bee, Hari Nef, Zendaya, Amy Schumer, Olivia Wilde and more have said they plan on attending or staying involved.</mutableString>
+                                                <string key="text">Gloria Steinem, Harry Belafonte and Dolores Huerta are serving as honorary co-chairs.  Amnesty International USA, the Mothers of the Movement, the National Center for Lesbian Rights, the National Organizational for Women (NOW), MoveOn.org, Human Rights Watch, CODEPINK, BlackGirlsRock, NAACP, the American Indian Movement, Emily's List, UniteWomen.org, Girls Who Code and many, many more organizations and groups are partners.  Celebrities including Cher, Scarlett Johansson, Chelsea Handler, Samantha Bee, Hari Nef, Zendaya, Amy Schumer, Olivia Wilde and more have said they plan on attending or staying involved.</string>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="15"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -179,14 +214,14 @@
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="What do I wear?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9kZ-sM-32I">
-                                                <rect key="frame" x="32" y="562" width="343" height="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do I wear?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9kZ-sM-32I">
+                                                <rect key="frame" x="20" y="848" width="343" height="20"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="17"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Wear layers and comfortable shoes you can walk in for long periods of time. Pack lightly and plan for 58°H/40°L weather." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="ZaI-vm-puo">
-                                                <rect key="frame" x="20" y="1255" width="343" height="88"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wear layers and comfortable shoes you can walk in for long periods of time. Pack lightly and plan for 58°H/40°L weather." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="ZaI-vm-puo">
+                                                <rect key="frame" x="20" y="876" width="343" height="53"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="15"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -201,6 +236,7 @@
                                             <constraint firstAttribute="trailing" secondItem="Uix-la-A7v" secondAttribute="trailing" constant="20" id="B6j-mv-zXw"/>
                                             <constraint firstItem="7TB-9g-ygj" firstAttribute="top" secondItem="5i8-bU-XK9" secondAttribute="bottom" constant="8" id="EeC-3s-nvV"/>
                                             <constraint firstAttribute="trailing" secondItem="9kZ-sM-32I" secondAttribute="trailing" constant="20" id="Egn-Ax-8bp"/>
+                                            <constraint firstItem="ZaI-vm-puo" firstAttribute="top" secondItem="9kZ-sM-32I" secondAttribute="bottom" constant="8" id="Etx-QK-0Pt"/>
                                             <constraint firstItem="Uix-la-A7v" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="GQL-wO-kNt"/>
                                             <constraint firstItem="pa8-9Y-060" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="GyF-9g-VhY"/>
                                             <constraint firstAttribute="trailing" secondItem="URF-ge-yAV" secondAttribute="trailing" constant="20" id="K7V-Qh-bVk"/>

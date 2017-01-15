@@ -12,6 +12,8 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var quoteLabel: UILabel!
    
+    @IBOutlet weak var tempLabel: UILabel!
+    @IBOutlet weak var summaryLabel: UILabel!
     let store = DataStore.sharedInstance
     
     override func viewDidLoad() {
@@ -26,7 +28,12 @@ class HomeViewController: UIViewController {
     
     func getCurrentWeather() {
         self.store.getWeatherData { (summary, temp) in
-            <#code#>
+            print("summary is \(summary) and \(temp)")
+            OperationQueue.main.addOperation {
+                self.tempLabel.text = String(temp)
+                self.summaryLabel.text = summary
+            }
+            
         }
     }
 

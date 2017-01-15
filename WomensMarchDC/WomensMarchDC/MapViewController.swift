@@ -53,6 +53,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         //makes a pin for location
         let mapPin = MapAnnotation(title: "Women's March Meeting Point", subtitle: "Independence Ave. & Third St. SW", coordinate: marchCoordinate, imageName: UIImage(named:"Female-48.png")!)
         
+        
         self.mapView.addAnnotation(mapPin)
         getBathrooms()
  
