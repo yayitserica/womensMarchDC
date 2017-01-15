@@ -18,7 +18,6 @@ class APIClient {
             guard let unwrappedData = data else { return }
             do {
                 let responseJSON = try JSONSerialization.jsonObject(with: unwrappedData, options: []) as? [[String:Any]]
-                print("getting json")
                 completion(responseJSON)
             } catch {
                 print("error getting bathroom JSON")

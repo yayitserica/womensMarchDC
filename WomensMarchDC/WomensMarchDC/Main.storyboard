@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="juy-tx-Tx8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Img-eO-Psg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -152,77 +152,160 @@
                                         <rect key="frame" x="0.0" y="0.0" width="383" height="2598"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is the Women's March on Washington?  " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iye-6l-CKD">
-                                                <rect key="frame" x="20" y="10" width="343" height="40"/>
-                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="17"/>
+                                                <rect key="frame" x="20" y="10" width="343" height="42.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="pa8-9Y-060">
-                                                <rect key="frame" x="20" y="58" width="343" height="123.5"/>
+                                                <rect key="frame" x="20" y="60.5" width="343" height="131.5"/>
                                                 <string key="text">The Women's March on Washington on January 21, 2017 is a march, a response to the comments about women, minorities, and other groups that were made by the president-elect during the campaign.   Sister marches will be held in other major metropolitan areas.</string>
-                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="15"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who can attend?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5i8-bU-XK9">
-                                                <rect key="frame" x="20" y="189.5" width="343" height="20"/>
-                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="17"/>
+                                                <rect key="frame" x="20" y="200" width="343" height="21.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It’s for any person, regardless of gender or gender identity, who believes women’s rights are human rights." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="7TB-9g-ygj">
-                                                <rect key="frame" x="20" y="217.5" width="343" height="53"/>
-                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="15"/>
+                                                <rect key="frame" x="20" y="229.5" width="343" height="56.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When is it?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wVQ-oc-eSX">
-                                                <rect key="frame" x="20" y="278.5" width="343" height="20"/>
-                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="17"/>
+                                                <rect key="frame" x="20" y="294" width="343" height="21.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The march will be held on Saturday, January 21. It will start at 10:00 a.m. EST and end at 5:00 p.m." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="enM-S3-eay">
-                                                <rect key="frame" x="20" y="306.5" width="343" height="53"/>
-                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="15"/>
+                                                <rect key="frame" x="20" y="323.5" width="343" height="56.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who is attending?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9xb-Rs-w01">
-                                                <rect key="frame" x="20" y="367.5" width="343" height="20"/>
-                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="17"/>
+                                                <rect key="frame" x="20" y="388" width="343" height="21.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="Uix-la-A7v">
-                                                <rect key="frame" x="20" y="395.5" width="343" height="281.5"/>
+                                                <rect key="frame" x="20" y="417.5" width="343" height="319"/>
                                                 <string key="text">Gloria Steinem, Harry Belafonte and Dolores Huerta are serving as honorary co-chairs.  Amnesty International USA, the Mothers of the Movement, the National Center for Lesbian Rights, the National Organizational for Women (NOW), MoveOn.org, Human Rights Watch, CODEPINK, BlackGirlsRock, NAACP, the American Indian Movement, Emily's List, UniteWomen.org, Girls Who Code and many, many more organizations and groups are partners.  Celebrities including Cher, Scarlett Johansson, Chelsea Handler, Samantha Bee, Hari Nef, Zendaya, Amy Schumer, Olivia Wilde and more have said they plan on attending or staying involved.</string>
-                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="15"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where will the march start and where will it go?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="URF-ge-yAV">
-                                                <rect key="frame" x="20" y="685" width="343" height="40"/>
-                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="17"/>
+                                                <rect key="frame" x="20" y="744.5" width="343" height="42.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="XVf-I8-TWL">
-                                                <rect key="frame" x="20" y="733" width="343" height="88"/>
+                                                <rect key="frame" x="20" y="795" width="343" height="94"/>
                                                 <string key="text">People will gather at the intersection of Independence Avenue and Third Street S.W., near the U.S. Capitol. The walk will probably follow Independence Avenue toward the Washington Monument.</string>
-                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="15"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do I wear?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9kZ-sM-32I">
-                                                <rect key="frame" x="20" y="848" width="343" height="20"/>
-                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="17"/>
+                                                <rect key="frame" x="20" y="897" width="343" height="21.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wear layers and comfortable shoes you can walk in for long periods of time. Pack lightly and plan for 58°H/40°L weather." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="ZaI-vm-puo">
-                                                <rect key="frame" x="20" y="876" width="343" height="53"/>
-                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="15"/>
+                                                <rect key="frame" x="20" y="926.5" width="343" height="56.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
+                                                <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do I need to register?  Do I need to bring/have an EventBrite ticket?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GDe-Uo-7OX">
+                                                <rect key="frame" x="20" y="991" width="343" height="42.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
+                                                <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="Ocw-bn-mlG">
+                                                <rect key="frame" x="20" y="1041.5" width="343" height="75.5"/>
+                                                <string key="text">You don't need a printed ticket, but you should still register so that the organizers have an accurate headcount. (You can register in this app!).</string>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
+                                                <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRAVELLING BY CAR:  Is there a good place for me to park my car for the day, if I am driving from out of state?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e9c-yo-da5">
+                                                <rect key="frame" x="20" y="1125" width="343" height="84.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
+                                                <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="M7h-LR-H1E">
+                                                <rect key="frame" x="20" y="1217.5" width="343" height="113"/>
+                                                <string key="text">Parking for vehicles is not provided and driving to the rally is strongly discouraged due to inauguration street closures. However, if you do drive, you should identify parking lots that may be open near Metro or Metrobus stops. </string>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
+                                                <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRAVELLING BY TRAIN: How do I get from Union Station to the march? " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="II9-De-s9Y">
+                                                <rect key="frame" x="20" y="1338.5" width="343" height="42.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
+                                                <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The easiest way might be to walk or take a Metrobus or train.  (See WMATA map in app)." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="7Yu-pL-IlW">
+                                                <rect key="frame" x="20" y="1389" width="343" height="56.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
+                                                <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRAVELLING BY BUS: Where will buses be dropping people off?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NIH-cn-DvI">
+                                                <rect key="frame" x="20" y="1453.5" width="343" height="42.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
+                                                <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="y1K-Ta-TRr">
+                                                <rect key="frame" x="20" y="1504" width="343" height="75.5"/>
+                                                <string key="text">There will not be any drop off locations near the rally.  All buses will be required to park and all marchers will be asked to use Metro to access the rally site.  </string>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
+                                                <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USING THE METRO" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uh6-Y4-fhB">
+                                                <rect key="frame" x="20" y="1587.5" width="343" height="23.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="20"/>
+                                                <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which Metro Station is the closest to the march?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HAW-sE-P5a">
+                                                <rect key="frame" x="20" y="1619" width="343" height="42.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
+                                                <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="tq9-GK-0jR">
+                                                <rect key="frame" x="20" y="1669.5" width="343" height="131.5"/>
+                                                <string key="text">The closest Metro stations are Federal Center SW &amp; L’Enfant Plaza (south) and Judiciary Square (north).   Union Station is approximately a 20 minute walk from the 10am meeting point.  Be sure to reference the Metro map for additional stations in this app. </string>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
+                                                <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How much is a Metrocard?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0fm-nw-BlZ">
+                                                <rect key="frame" x="20" y="1809" width="343" height="21.5"/>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
+                                                <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="JMU-2v-XGK">
+                                                <rect key="frame" x="20" y="1838.5" width="343" height="244"/>
+                                                <string key="text">If you plan on using public transit, you will need a SmarTrip card. We highly recommend purchasing SmarTrip cards in advance, although they will be available in Metro stations (please note lines may be long and cause delays to the rally). The SmarTrip cards cost $10 and come preloaded with $8 for fare.  You can also buy a one-day fare card for $14.50.  Unfortunately, SmarTrip can not be shared by multiple people on the same trip, so each rider must have their own metrocard.</string>
+                                                <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -231,38 +314,77 @@
                                         <constraints>
                                             <constraint firstItem="Uix-la-A7v" firstAttribute="top" secondItem="9xb-Rs-w01" secondAttribute="bottom" constant="8" id="3SL-ZD-4cv"/>
                                             <constraint firstItem="9kZ-sM-32I" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="4fi-PX-arl"/>
+                                            <constraint firstItem="y1K-Ta-TRr" firstAttribute="top" secondItem="NIH-cn-DvI" secondAttribute="bottom" constant="8" id="5fA-GR-BSm"/>
+                                            <constraint firstItem="Uh6-Y4-fhB" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="6rH-hK-zrP"/>
+                                            <constraint firstItem="Uh6-Y4-fhB" firstAttribute="top" secondItem="y1K-Ta-TRr" secondAttribute="bottom" constant="8" id="6zC-2f-nIh"/>
+                                            <constraint firstAttribute="trailing" secondItem="JMU-2v-XGK" secondAttribute="trailing" constant="20" id="80W-oU-jE8"/>
+                                            <constraint firstAttribute="trailing" secondItem="M7h-LR-H1E" secondAttribute="trailing" constant="20" id="8Iw-ia-VcN"/>
                                             <constraint firstAttribute="trailing" secondItem="7TB-9g-ygj" secondAttribute="trailing" constant="20" id="8NO-y5-gTm"/>
+                                            <constraint firstItem="II9-De-s9Y" firstAttribute="top" secondItem="M7h-LR-H1E" secondAttribute="bottom" constant="8" id="9Vh-wz-GU2"/>
                                             <constraint firstItem="9xb-Rs-w01" firstAttribute="top" secondItem="enM-S3-eay" secondAttribute="bottom" constant="8" id="9vh-M6-sOp"/>
+                                            <constraint firstItem="9kZ-sM-32I" firstAttribute="top" secondItem="XVf-I8-TWL" secondAttribute="bottom" constant="8" id="AY0-oV-kfc"/>
                                             <constraint firstAttribute="trailing" secondItem="Uix-la-A7v" secondAttribute="trailing" constant="20" id="B6j-mv-zXw"/>
+                                            <constraint firstAttribute="trailing" secondItem="GDe-Uo-7OX" secondAttribute="trailing" constant="20" id="Ba4-cT-PIN"/>
+                                            <constraint firstAttribute="trailing" secondItem="HAW-sE-P5a" secondAttribute="trailing" constant="20" id="EVj-be-NaW"/>
                                             <constraint firstItem="7TB-9g-ygj" firstAttribute="top" secondItem="5i8-bU-XK9" secondAttribute="bottom" constant="8" id="EeC-3s-nvV"/>
                                             <constraint firstAttribute="trailing" secondItem="9kZ-sM-32I" secondAttribute="trailing" constant="20" id="Egn-Ax-8bp"/>
                                             <constraint firstItem="ZaI-vm-puo" firstAttribute="top" secondItem="9kZ-sM-32I" secondAttribute="bottom" constant="8" id="Etx-QK-0Pt"/>
+                                            <constraint firstItem="e9c-yo-da5" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="F09-H0-tVW"/>
+                                            <constraint firstAttribute="trailing" secondItem="e9c-yo-da5" secondAttribute="trailing" constant="20" id="FR7-z2-ocn"/>
+                                            <constraint firstItem="HAW-sE-P5a" firstAttribute="top" secondItem="Uh6-Y4-fhB" secondAttribute="bottom" constant="8" id="GEQ-Tq-xOt"/>
                                             <constraint firstItem="Uix-la-A7v" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="GQL-wO-kNt"/>
+                                            <constraint firstItem="7Yu-pL-IlW" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="GSi-lJ-fg9"/>
+                                            <constraint firstItem="GDe-Uo-7OX" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="GcJ-cL-mLX"/>
+                                            <constraint firstItem="0fm-nw-BlZ" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="GtF-LN-uLO"/>
                                             <constraint firstItem="pa8-9Y-060" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="GyF-9g-VhY"/>
+                                            <constraint firstAttribute="trailing" secondItem="y1K-Ta-TRr" secondAttribute="trailing" constant="20" id="H5M-60-nD8"/>
+                                            <constraint firstItem="GDe-Uo-7OX" firstAttribute="top" secondItem="ZaI-vm-puo" secondAttribute="bottom" constant="8" id="IMx-m3-cJE"/>
                                             <constraint firstAttribute="trailing" secondItem="URF-ge-yAV" secondAttribute="trailing" constant="20" id="K7V-Qh-bVk"/>
+                                            <constraint firstItem="7Yu-pL-IlW" firstAttribute="top" secondItem="II9-De-s9Y" secondAttribute="bottom" constant="8" id="K7t-j6-4R7"/>
                                             <constraint firstItem="iye-6l-CKD" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="L3j-ik-3HM"/>
+                                            <constraint firstItem="HAW-sE-P5a" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="LXB-sl-WaR"/>
                                             <constraint firstAttribute="trailing" secondItem="XVf-I8-TWL" secondAttribute="trailing" constant="20" id="LzB-aC-mbv"/>
                                             <constraint firstAttribute="trailing" secondItem="enM-S3-eay" secondAttribute="trailing" constant="20" id="MAi-Lo-diK"/>
                                             <constraint firstItem="XVf-I8-TWL" firstAttribute="top" secondItem="URF-ge-yAV" secondAttribute="bottom" constant="8" id="MC1-hk-5he"/>
                                             <constraint firstItem="URF-ge-yAV" firstAttribute="top" secondItem="Uix-la-A7v" secondAttribute="bottom" constant="8" id="MT6-Yn-be0"/>
+                                            <constraint firstItem="0fm-nw-BlZ" firstAttribute="top" secondItem="tq9-GK-0jR" secondAttribute="bottom" constant="8" id="Mrc-lf-QX1"/>
+                                            <constraint firstItem="y1K-Ta-TRr" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="P6v-Vp-Z5K"/>
+                                            <constraint firstAttribute="trailing" secondItem="7Yu-pL-IlW" secondAttribute="trailing" constant="20" id="Pwi-WZ-ZDU"/>
+                                            <constraint firstAttribute="trailing" secondItem="tq9-GK-0jR" secondAttribute="trailing" constant="20" id="QBJ-5r-uVg"/>
                                             <constraint firstItem="5i8-bU-XK9" firstAttribute="top" secondItem="pa8-9Y-060" secondAttribute="bottom" constant="8" id="Rra-KJ-buM"/>
+                                            <constraint firstItem="NIH-cn-DvI" firstAttribute="top" secondItem="7Yu-pL-IlW" secondAttribute="bottom" constant="8" id="U7C-vM-ztJ"/>
                                             <constraint firstItem="iye-6l-CKD" firstAttribute="top" secondItem="5dW-1U-Z9Y" secondAttribute="top" constant="10" id="UcV-fI-onJ"/>
-                                            <constraint firstItem="XVf-I8-TWL" firstAttribute="top" secondItem="9kZ-sM-32I" secondAttribute="bottom" constant="-135" id="Vpe-ii-vTq"/>
                                             <constraint firstItem="wVQ-oc-eSX" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="WjD-K9-xVj"/>
                                             <constraint firstAttribute="trailing" secondItem="9xb-Rs-w01" secondAttribute="trailing" constant="20" id="XzN-76-dgL"/>
                                             <constraint firstAttribute="trailing" secondItem="ZaI-vm-puo" secondAttribute="trailing" constant="20" id="Xzw-39-90C"/>
                                             <constraint firstItem="5i8-bU-XK9" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="YTW-RB-ANC"/>
                                             <constraint firstAttribute="trailing" secondItem="5i8-bU-XK9" secondAttribute="trailing" constant="20" id="YX6-oJ-1H1"/>
+                                            <constraint firstItem="Ocw-bn-mlG" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="ZIO-OA-8su"/>
                                             <constraint firstItem="enM-S3-eay" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="b5B-IR-apx"/>
                                             <constraint firstItem="enM-S3-eay" firstAttribute="top" secondItem="wVQ-oc-eSX" secondAttribute="bottom" constant="8" id="c67-cm-Ows"/>
+                                            <constraint firstAttribute="trailing" secondItem="Uh6-Y4-fhB" secondAttribute="trailing" constant="20" id="fP9-al-vUH"/>
+                                            <constraint firstItem="tq9-GK-0jR" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="fsQ-L5-sZM"/>
                                             <constraint firstItem="9xb-Rs-w01" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="gFF-dr-0I8"/>
+                                            <constraint firstItem="e9c-yo-da5" firstAttribute="top" secondItem="Ocw-bn-mlG" secondAttribute="bottom" constant="8" id="ihh-FG-uzr"/>
                                             <constraint firstAttribute="trailing" secondItem="iye-6l-CKD" secondAttribute="trailing" constant="20" id="kG5-sq-yBJ"/>
                                             <constraint firstItem="pa8-9Y-060" firstAttribute="top" secondItem="iye-6l-CKD" secondAttribute="bottom" constant="8" id="kZa-fj-mFl"/>
+                                            <constraint firstAttribute="trailing" secondItem="NIH-cn-DvI" secondAttribute="trailing" constant="20" id="koL-4y-Tl6"/>
                                             <constraint firstItem="wVQ-oc-eSX" firstAttribute="top" secondItem="7TB-9g-ygj" secondAttribute="bottom" constant="8" id="mc2-C6-nWi"/>
+                                            <constraint firstItem="JMU-2v-XGK" firstAttribute="top" secondItem="0fm-nw-BlZ" secondAttribute="bottom" constant="8" id="pZD-65-cru"/>
+                                            <constraint firstAttribute="trailing" secondItem="II9-De-s9Y" secondAttribute="trailing" constant="20" id="qhq-8l-k2K"/>
+                                            <constraint firstItem="M7h-LR-H1E" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="qo5-dw-6g7"/>
+                                            <constraint firstItem="NIH-cn-DvI" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="rja-gr-GEF"/>
                                             <constraint firstItem="XVf-I8-TWL" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="sep-7E-bEt"/>
+                                            <constraint firstItem="tq9-GK-0jR" firstAttribute="top" secondItem="HAW-sE-P5a" secondAttribute="bottom" constant="8" id="ta1-Py-3km"/>
+                                            <constraint firstItem="JMU-2v-XGK" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="unn-tl-Vqx"/>
+                                            <constraint firstItem="II9-De-s9Y" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="uvW-Xy-Ifo"/>
+                                            <constraint firstAttribute="trailing" secondItem="0fm-nw-BlZ" secondAttribute="trailing" constant="20" id="vag-fd-5sQ"/>
+                                            <constraint firstItem="M7h-LR-H1E" firstAttribute="top" secondItem="e9c-yo-da5" secondAttribute="bottom" constant="8" id="wbc-a6-DnH"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ocw-bn-mlG" secondAttribute="trailing" constant="20" id="x5v-oa-s5z"/>
                                             <constraint firstAttribute="trailing" secondItem="wVQ-oc-eSX" secondAttribute="trailing" constant="20" id="xa5-2u-V34"/>
                                             <constraint firstItem="URF-ge-yAV" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="yIY-27-ewj"/>
                                             <constraint firstItem="ZaI-vm-puo" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="yeE-IY-bOU"/>
+                                            <constraint firstItem="Ocw-bn-mlG" firstAttribute="top" secondItem="GDe-Uo-7OX" secondAttribute="bottom" constant="8" id="zEf-BX-A45"/>
                                             <constraint firstAttribute="trailing" secondItem="pa8-9Y-060" secondAttribute="trailing" constant="20" id="zIz-XC-AXA"/>
                                             <constraint firstItem="7TB-9g-ygj" firstAttribute="leading" secondItem="5dW-1U-Z9Y" secondAttribute="leading" constant="20" id="zVL-q8-sZz"/>
                                         </constraints>
@@ -334,6 +456,31 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTs-HQ-HMK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2352.8000000000002" y="1501.7991004497753"/>
+        </scene>
+        <!--Metro View Controller-->
+        <scene sceneID="Udp-eL-qB2">
+            <objects>
+                <viewController id="Img-eO-Psg" customClass="MetroViewController" customModule="WomensMarchDC" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iUU-am-07w"/>
+                        <viewControllerLayoutGuide type="bottom" id="BJB-wA-cYp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LnZ-WX-3cG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4cT-YV-ccg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O62-34-0nU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="rny-dJ-gU6"/>
+            </objects>
+            <point key="canvasLocation" x="3149.5999999999999" y="1504.4977511244379"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="IK6-Rc-e2S">
