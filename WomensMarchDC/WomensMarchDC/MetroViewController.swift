@@ -8,30 +8,24 @@
 
 import UIKit
 
-class MetroViewController: UIViewController {
+class MetroViewController: UIViewController, UIScrollViewDelegate {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        //sets the max amount the image can zoom to
+        self.scrollView.minimumZoomScale = 1.0
+        self.scrollView.maximumZoomScale = 6.0
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func handlePinch(recognizer : UIPinchGestureRecognizer) {
-        if let view = recognizer.view {
-            view.transform = view.transform.scaledBy(x: recognizer.scale, y: recognizer.scale)
-            recognizer.scale = 1
-        }
+    //MARK: - scrollview delegate method
+    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
+        return self.imageView
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
