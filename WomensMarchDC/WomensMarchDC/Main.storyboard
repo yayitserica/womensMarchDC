@@ -34,7 +34,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="tcP-iY-brx">
                                 <rect key="frame" x="19" y="20" width="337" height="373.5"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Images attributed to www.womensmarch.com and Washington Metropolitan Area Transit Authority" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="X8N-ig-Uww">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Images attributed to www.womensmarch.com and Washington Metropolitan Area Transit Authority" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="X8N-ig-Uww">
                                 <rect key="frame" x="16" y="545" width="343" height="19"/>
                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="8"/>
                                 <color key="textColor" red="0.96470588235294119" green="0.92549019607843142" blue="0.792156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -180,158 +180,158 @@
                                         <rect key="frame" x="0.0" y="0.0" width="383" height="2598"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is the Women's March on Washington?  " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iye-6l-CKD">
-                                                <rect key="frame" x="20" y="10" width="343" height="42"/>
+                                                <rect key="frame" x="20" y="10" width="343" height="42.5"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="pa8-9Y-060">
-                                                <rect key="frame" x="20" y="60" width="343" height="112"/>
+                                                <rect key="frame" x="20" y="60.5" width="343" height="131.5"/>
                                                 <string key="text">The Women's March on Washington on January 21, 2017 is a march, a response to the comments about women, minorities, and other groups that were made by the president-elect during the campaign.   Sister marches will be held in other major metropolitan areas.</string>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who can attend?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5i8-bU-XK9">
-                                                <rect key="frame" x="20" y="180" width="343" height="21"/>
+                                                <rect key="frame" x="20" y="200" width="343" height="21"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It’s for any person, regardless of gender or gender identity, who believes women’s rights are human rights." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="7TB-9g-ygj">
-                                                <rect key="frame" x="20" y="209" width="343" height="56"/>
+                                                <rect key="frame" x="20" y="229" width="343" height="56.5"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When is it?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wVQ-oc-eSX">
-                                                <rect key="frame" x="20" y="273" width="343" height="21"/>
+                                                <rect key="frame" x="20" y="293.5" width="343" height="21"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The march will be held on Saturday, January 21. It will start at 10:00 a.m. EST and end at 5:00 p.m." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="enM-S3-eay">
-                                                <rect key="frame" x="20" y="302" width="343" height="56"/>
+                                                <rect key="frame" x="20" y="322.5" width="343" height="56.5"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who is attending?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9xb-Rs-w01">
-                                                <rect key="frame" x="20" y="366" width="343" height="21"/>
+                                                <rect key="frame" x="20" y="387" width="343" height="21"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="Uix-la-A7v">
-                                                <rect key="frame" x="20" y="395" width="343" height="280"/>
+                                                <rect key="frame" x="20" y="416" width="343" height="319"/>
                                                 <string key="text">Gloria Steinem, Harry Belafonte and Dolores Huerta are serving as honorary co-chairs.  Amnesty International USA, the Mothers of the Movement, the National Center for Lesbian Rights, the National Organizational for Women (NOW), MoveOn.org, Human Rights Watch, CODEPINK, BlackGirlsRock, NAACP, the American Indian Movement, Emily's List, UniteWomen.org, Girls Who Code and many, many more organizations and groups are partners.  Celebrities including Cher, Scarlett Johansson, Chelsea Handler, Samantha Bee, Hari Nef, Zendaya, Amy Schumer, Olivia Wilde and more have said they plan on attending or staying involved.</string>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where will the march start and where will it go?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="URF-ge-yAV">
-                                                <rect key="frame" x="20" y="683" width="343" height="42"/>
+                                                <rect key="frame" x="20" y="743" width="343" height="42.5"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="XVf-I8-TWL">
-                                                <rect key="frame" x="20" y="733" width="343" height="93.5"/>
+                                                <rect key="frame" x="20" y="793.5" width="343" height="94"/>
                                                 <string key="text">People will gather at the intersection of Independence Avenue and Third Street S.W., near the U.S. Capitol. The walk will probably follow Independence Avenue toward the Washington Monument.</string>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do I wear?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9kZ-sM-32I">
-                                                <rect key="frame" x="20" y="834.5" width="343" height="21"/>
+                                                <rect key="frame" x="20" y="895.5" width="343" height="21"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wear layers and comfortable shoes you can walk in for long periods of time. Pack lightly and plan for 58°H/40°L weather." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="ZaI-vm-puo">
-                                                <rect key="frame" x="20" y="863.5" width="343" height="56"/>
+                                                <rect key="frame" x="20" y="924.5" width="343" height="56.5"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do I need to register?  Do I need to bring/have an EventBrite ticket?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GDe-Uo-7OX">
-                                                <rect key="frame" x="20" y="927.5" width="343" height="42"/>
+                                                <rect key="frame" x="20" y="989" width="343" height="42.5"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="Ocw-bn-mlG">
-                                                <rect key="frame" x="20" y="977.5" width="343" height="75"/>
+                                                <rect key="frame" x="20" y="1039.5" width="343" height="75.5"/>
                                                 <string key="text">You don't need a printed ticket, but you should still register so that the organizers have an accurate headcount. (You can register in this app!).</string>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRAVELLING BY CAR:  Is there a good place for me to park my car for the day, if I am driving from out of state?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e9c-yo-da5">
-                                                <rect key="frame" x="20" y="1060.5" width="343" height="63"/>
+                                                <rect key="frame" x="20" y="1123" width="343" height="84.5"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="M7h-LR-H1E">
-                                                <rect key="frame" x="20" y="1131.5" width="343" height="93.5"/>
+                                                <rect key="frame" x="20" y="1215.5" width="343" height="113"/>
                                                 <string key="text">Parking for vehicles is not provided and driving to the rally is strongly discouraged due to inauguration street closures. However, if you do drive, you should identify parking lots that may be open near Metro or Metrobus stops. </string>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRAVELLING BY TRAIN: How do I get from Union Station to the march? " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="II9-De-s9Y">
-                                                <rect key="frame" x="20" y="1233" width="343" height="42"/>
+                                                <rect key="frame" x="20" y="1336.5" width="343" height="42.5"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The easiest way might be to walk or take a Metrobus or train.  (See WMATA map in app)." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="7Yu-pL-IlW">
-                                                <rect key="frame" x="20" y="1283" width="343" height="37.5"/>
+                                                <rect key="frame" x="20" y="1387" width="343" height="56.5"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRAVELLING BY BUS: Where will buses be dropping people off?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NIH-cn-DvI">
-                                                <rect key="frame" x="20" y="1328.5" width="343" height="42"/>
+                                                <rect key="frame" x="20" y="1451.5" width="343" height="42.5"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="y1K-Ta-TRr">
-                                                <rect key="frame" x="20" y="1378.5" width="343" height="75"/>
+                                                <rect key="frame" x="20" y="1502" width="343" height="75.5"/>
                                                 <string key="text">There will not be any drop off locations near the rally.  All buses will be required to park and all marchers will be asked to use Metro to access the rally site.  </string>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USING THE METRO" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uh6-Y4-fhB">
-                                                <rect key="frame" x="20" y="1461.5" width="343" height="23.5"/>
+                                                <rect key="frame" x="20" y="1585.5" width="343" height="23.5"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="20"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which Metro Station is the closest to the march?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HAW-sE-P5a">
-                                                <rect key="frame" x="20" y="1493" width="343" height="42"/>
+                                                <rect key="frame" x="20" y="1617" width="343" height="42.5"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="tq9-GK-0jR">
-                                                <rect key="frame" x="20" y="1543" width="343" height="112"/>
+                                                <rect key="frame" x="20" y="1667.5" width="343" height="131.5"/>
                                                 <string key="text">The closest Metro stations are Federal Center SW &amp; L’Enfant Plaza (south) and Judiciary Square (north).   Union Station is approximately a 20 minute walk from the 10am meeting point.  Be sure to reference the Metro map for additional stations in this app. </string>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How much is a Metrocard?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0fm-nw-BlZ">
-                                                <rect key="frame" x="20" y="1663" width="343" height="21"/>
+                                                <rect key="frame" x="20" y="1807" width="343" height="21"/>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="18"/>
                                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="JMU-2v-XGK">
-                                                <rect key="frame" x="20" y="1692" width="343" height="205.5"/>
+                                                <rect key="frame" x="20" y="1836" width="343" height="244"/>
                                                 <string key="text">If you plan on using public transit, you will need a SmarTrip card. We highly recommend purchasing SmarTrip cards in advance, although they will be available in Metro stations (please note lines may be long and cause delays to the rally). The SmarTrip cards cost $10 and come preloaded with $8 for fare.  You can also buy a one-day fare card for $14.50.  Unfortunately, SmarTrip can not be shared by multiple people on the same trip, so each rider must have their own metrocard.</string>
                                                 <fontDescription key="fontDescription" name="AsimovWid" family="Asimov" pointSize="16"/>
                                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -455,19 +455,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ZHW-6C-Hr6">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZHW-6C-Hr6">
                                 <rect key="frame" x="0.0" y="117" width="375" height="501"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Restrooms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iiu-lj-mrQ">
-                                <rect key="frame" x="16" y="88" width="194" height="24"/>
+                                <rect key="frame" x="67" y="79" width="194" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Asimov" family="Asimov" pointSize="20"/>
                                 <color key="textColor" red="0.12941176469999999" green="0.20392156859999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Female-48" translatesAutoresizingMaskIntoConstraints="NO" id="cWw-N0-Ztb">
+                                <rect key="frame" x="16" y="36" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Toilet-48" translatesAutoresizingMaskIntoConstraints="NO" id="lsB-1b-nzb">
+                                <rect key="frame" x="16" y="79" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meeting Point" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4d-R9-J0b">
-                                <rect key="frame" x="16" y="59" width="194" height="21"/>
+                                <rect key="frame" x="67" y="36" width="194" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Asimov" family="Asimov" pointSize="20"/>
                                 <color key="textColor" red="0.94509803920000002" green="0.3803921569" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -566,6 +574,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Female-48" width="24" height="24"/>
         <image name="Help Filled-50" width="25" height="25"/>
         <image name="Help-50" width="25" height="25"/>
         <image name="Home Filled-50" width="25" height="25"/>
@@ -576,6 +585,7 @@
         <image name="Sign Up-50" width="25" height="25"/>
         <image name="Subway Filled-50" width="25" height="25"/>
         <image name="Subway-50" width="25" height="25"/>
+        <image name="Toilet-48" width="24" height="24"/>
         <image name="info" width="480" height="510"/>
         <image name="metro" width="522" height="543"/>
     </resources>

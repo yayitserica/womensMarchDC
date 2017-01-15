@@ -18,7 +18,7 @@
 		450990461E286D9000D3148C /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450990451E286D9000D3148C /* FAQViewController.swift */; };
 		455E94F41E2BFC8700FC9CCC /* MetroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E94F31E2BFC8700FC9CCC /* MetroViewController.swift */; };
 		45B7E5111E298CE8000CD90B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7E5101E298CE8000CD90B /* RegisterViewController.swift */; };
-		45B7E5131E298D19000CD90B /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7E5121E298D19000CD90B /* MapAnnotation.swift */; };
+		45B7E5131E298D19000CD90B /* BathroomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7E5121E298D19000CD90B /* BathroomAnnotation.swift */; };
 		45FA57C71E2ADC8C00D4F7D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FA57C61E2ADC8C00D4F7D8 /* Main.storyboard */; };
 		45FA57C91E2B1A3000D4F7D8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FA57C81E2B1A3000D4F7D8 /* APIClient.swift */; };
 		45FA57CC1E2B1B4500D4F7D8 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FA57CB1E2B1B4500D4F7D8 /* DataStore.swift */; };
@@ -41,7 +41,7 @@
 		450990451E286D9000D3148C /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
 		455E94F31E2BFC8700FC9CCC /* MetroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetroViewController.swift; sourceTree = "<group>"; };
 		45B7E5101E298CE8000CD90B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		45B7E5121E298D19000CD90B /* MapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		45B7E5121E298D19000CD90B /* BathroomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BathroomAnnotation.swift; sourceTree = "<group>"; };
 		45FA57C61E2ADC8C00D4F7D8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		45FA57C81E2B1A3000D4F7D8 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		45FA57CB1E2B1B4500D4F7D8 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 				450990201E27E72900D3148C /* HomeViewController.swift */,
 				45B7E5101E298CE8000CD90B /* RegisterViewController.swift */,
 				450990431E28666A00D3148C /* MapViewController.swift */,
-				45B7E5121E298D19000CD90B /* MapAnnotation.swift */,
+				45B7E5121E298D19000CD90B /* BathroomAnnotation.swift */,
 				450990451E286D9000D3148C /* FAQViewController.swift */,
 				455E94F31E2BFC8700FC9CCC /* MetroViewController.swift */,
 			);
@@ -225,7 +225,7 @@
 				450990461E286D9000D3148C /* FAQViewController.swift in Sources */,
 				450990441E28666A00D3148C /* MapViewController.swift in Sources */,
 				45FA57CC1E2B1B4500D4F7D8 /* DataStore.swift in Sources */,
-				45B7E5131E298D19000CD90B /* MapAnnotation.swift in Sources */,
+				45B7E5131E298D19000CD90B /* BathroomAnnotation.swift in Sources */,
 				455E94F41E2BFC8700FC9CCC /* MetroViewController.swift in Sources */,
 				45FA57D01E2B2DCA00D4F7D8 /* Secrets.swift in Sources */,
 			);
