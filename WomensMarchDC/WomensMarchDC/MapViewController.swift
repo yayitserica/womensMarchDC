@@ -24,20 +24,22 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     let store = DataStore.sharedInstance
     let constants = Constants()
     
-    let mapSpanMeters: CLLocationDistance = 1610
+    let mapSpanMeters: CLLocationDistance = 2000
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.mapView.delegate = self
         setMapRegion()
-        mapView.addAnnotation(WomensMarchCoordinate())
         getBathrooms()
         getParkingGarages()
     }
     
     func setMapRegion(){
         let region = MKCoordinateRegionMakeWithDistance(marchCoordinate, mapSpanMeters, mapSpanMeters)
-        mapView.setRegion(region, animated: true)
+        OperationQueue.main.addOperation {
+            self.mapView.setRegion(region, animated: true)
+            self.mapView.addAnnotation(WomensMarchCoordinate())
+        }
     }
 
     func getBathrooms() {

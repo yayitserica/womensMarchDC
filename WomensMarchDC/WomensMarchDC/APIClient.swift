@@ -44,7 +44,7 @@ class APIClient {
     }
     
     class func getParkingJSON(completion:@escaping ([String:Any])-> Void) {
-        let urlString = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=\(Constants.marchLat),\(Constants.marchLong)&radius=1610&type=parking&keyword=parking,parkinggarage&key=\(Secrets.gpkey)"
+        let urlString = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=\(Constants.marchLat),\(Constants.marchLong)&radius=2000&type=parking&keyword=parking,parkinggarage&key=\(Secrets.gpkey)"
         let url = URL(string: urlString)
         guard let unwrappedURL = url else { return }
         let session = URLSession.shared
