@@ -42,4 +42,21 @@ class APIClient {
         }
         datatask.resume()
     }
+    
+    class func getParkingJSON(completion:@escaping ([String:Any])-> Void) {
+        let urlString = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=\(Constants.marchLat),\(Constants.marchLong)&radius=1610&type=parking&keyword=parking,parkinggarage&key=\(Secrets.gpkey)"
+        let url = URL(string: urlString)
+        guard let unwrappedURL = url else { return }
+        let session = URLSession.shared
+        let datatask = session.dataTask(with: unwrappedURL) { (data, response, error) in
+            guard let unwrappedData = data else { return }
+            do {
+                let responseJSON = try JSONSerialization.jsonObject(with: unwrappedData, options: []) as? [String:Any] ?? [:]
+                completion(responseJSON)
+            } catch {
+                print("error getting parking json")
+            }
+        }
+        datatask.resume()
+    }
 }

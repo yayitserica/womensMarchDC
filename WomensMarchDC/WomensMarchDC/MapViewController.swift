@@ -24,15 +24,15 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     let store = DataStore.sharedInstance
     let constants = Constants()
     
-    let mapSpanMeters: CLLocationDistance = 1000
-    
-    
+    let mapSpanMeters: CLLocationDistance = 1610
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.mapView.delegate = self
         setMapRegion()
         mapView.addAnnotation(WomensMarchCoordinate())
         getBathrooms()
+        getParkingGarages()
     }
     
     func setMapRegion(){
@@ -43,10 +43,21 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     func getBathrooms() {
         store.createBathroomsArray {
             for bathroom in self.store.bathrooms {
-                _ = CLLocationCoordinate2D(latitude: bathroom.latitude, longitude: bathroom.longitude)
                 let bathPin = BathroomAnnotation(title: bathroom.name, subtitle: bathroom.street, lat: bathroom.latitude, long: bathroom.longitude)
                 OperationQueue.main.addOperation {
                     self.mapView.addAnnotation(bathPin)
+                }
+            }
+        }
+    }
+    
+    func getParkingGarages() {
+        store.getParkingData { 
+            print(self.store.parkingGarages.count)
+            for parking in self.store.parkingGarages {
+                let parkingPin = ParkingAnnotation(title: parking.name, subtitle: parking.street, lat: parking.latitude, long: parking.longitude)
+                OperationQueue.main.addOperation {
+                    self.mapView.addAnnotation(parkingPin)
                 }
             }
         }
@@ -64,38 +75,8 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         return color
     }
     
-//    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
-//        if let annotation = annotation as? PizzaLocation{
-//            if let view = mapView.dequeueReusableAnnotationViewWithIdentifier(annotation.identifier){
-//                return view
-//            }else{
-//                let view = MKAnnotationView(annotation: annotation, reuseIdentifier: annotation.identifier)
-//                view.image = pizzaPin
-//                view.enabled = true
-//                view.canShowCallout = true
-//                view.leftCalloutAccessoryView = UIImageView(image: pizzaPin)
-//                return view
-//            }
-//        }else{
-//            if let annotation = annotation as? ChicagoCenterCoordinate{
-//                if let dequeuedView = mapView.dequeueReusableAnnotationViewWithIdentifier("center"){
-//                    return dequeuedView
-//                }else {
-//                    let view = MKAnnotationView(annotation: annotation, reuseIdentifier: "center")
-//                    view.image = crossHairs
-//                    view.enabled = true
-//                    view.canShowCallout = true
-//                    return view
-//                }
-//            }
-//        }
-//        return nil
-//    }
-    
-    
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         
-//        var view : MKPinAnnotationView
         
         if let unwrappedAnnotation = annotation as? BathroomAnnotation {
 //            if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: unwrappedAnnotation.identifier) as? MKPinAnnotationView {
@@ -112,6 +93,18 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                 view.leftCalloutAccessoryView = UIImageView(image: UIImage(named: "Toilet-48.png"))
                 return view
             }
+        } else if let unwrappedAnnotation = annotation as? ParkingAnnotation {
+            if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: unwrappedAnnotation.identifier) {
+                return dequeuedView
+            } else {
+                let view = MKAnnotationView(annotation: unwrappedAnnotation, reuseIdentifier: unwrappedAnnotation.identifier)
+                view.image = UIImage(named: "Parking-48.png")
+                view.isEnabled = true
+                view.canShowCallout = true
+                view.leftCalloutAccessoryView = UIImageView(image: UIImage(named: "Parking-48.png"))
+                return view
+            }
+        
         } else {
             if let unwrappedAnnotation = annotation as? WomensMarchCoordinate {
                 if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: "center"){
@@ -124,6 +117,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
                     view.image = UIImage(named: "Female-48.png")
                     view.isEnabled = true
                     view.canShowCallout = true
+//                    view.leftCalloutAccessoryView = UIImageView(image: UIImage(named: "Female-48.png"))
                     return view
                 }
             }

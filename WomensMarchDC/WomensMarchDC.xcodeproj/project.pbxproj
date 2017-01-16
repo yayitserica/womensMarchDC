@@ -25,6 +25,8 @@
 		45FA57CE1E2B1CC900D4F7D8 /* Bathroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FA57CD1E2B1CC900D4F7D8 /* Bathroom.swift */; };
 		45FA57D01E2B2DCA00D4F7D8 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FA57CF1E2B2DCA00D4F7D8 /* Secrets.swift */; };
 		45FAB7E71E29784E00B40525 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FAB7E61E29784E00B40525 /* MapKit.framework */; };
+		45FB26D41E2D62F90047B575 /* Parking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB26D31E2D62F90047B575 /* Parking.swift */; };
+		45FB26D61E2D6F1E0047B575 /* ParkingAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB26D51E2D6F1E0047B575 /* ParkingAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		45FA57CD1E2B1CC900D4F7D8 /* Bathroom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bathroom.swift; sourceTree = "<group>"; };
 		45FA57CF1E2B2DCA00D4F7D8 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		45FAB7E61E29784E00B40525 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		45FB26D31E2D62F90047B575 /* Parking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parking.swift; sourceTree = "<group>"; };
+		45FB26D51E2D6F1E0047B575 /* ParkingAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 				45B7E5101E298CE8000CD90B /* RegisterViewController.swift */,
 				450990431E28666A00D3148C /* MapViewController.swift */,
 				45B7E5121E298D19000CD90B /* BathroomAnnotation.swift */,
+				45FB26D51E2D6F1E0047B575 /* ParkingAnnotation.swift */,
 				450990451E286D9000D3148C /* FAQViewController.swift */,
 				455E94F31E2BFC8700FC9CCC /* MetroViewController.swift */,
 			);
@@ -123,6 +128,7 @@
 				45FA57C81E2B1A3000D4F7D8 /* APIClient.swift */,
 				45FA57CF1E2B2DCA00D4F7D8 /* Secrets.swift */,
 				45FA57CD1E2B1CC900D4F7D8 /* Bathroom.swift */,
+				45FB26D31E2D62F90047B575 /* Parking.swift */,
 				45FA57CB1E2B1B4500D4F7D8 /* DataStore.swift */,
 			);
 			name = Model;
@@ -223,7 +229,9 @@
 				45FA57C91E2B1A3000D4F7D8 /* APIClient.swift in Sources */,
 				450990311E27EEB100D3148C /* Constants.swift in Sources */,
 				450990461E286D9000D3148C /* FAQViewController.swift in Sources */,
+				45FB26D61E2D6F1E0047B575 /* ParkingAnnotation.swift in Sources */,
 				450990441E28666A00D3148C /* MapViewController.swift in Sources */,
+				45FB26D41E2D62F90047B575 /* Parking.swift in Sources */,
 				45FA57CC1E2B1B4500D4F7D8 /* DataStore.swift in Sources */,
 				45B7E5131E298D19000CD90B /* BathroomAnnotation.swift in Sources */,
 				455E94F41E2BFC8700FC9CCC /* MetroViewController.swift in Sources */,

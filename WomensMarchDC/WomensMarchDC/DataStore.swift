@@ -13,9 +13,9 @@ class DataStore {
     private init() {}
     
     var bathrooms:[Bathroom] = []
+    var parkingGarages:[Parking] = []
     
     func createBathroomsArray(completion:@escaping ()->Void) {
-        
         self.bathrooms.removeAll()
         
         APIClient.getbathroomJSON { (bathroomsArray) in
@@ -38,6 +38,29 @@ class DataStore {
             let summary = currentlyDict["summary"] as? String ?? ""
             let temperature = currentlyDict["temperature"] as? Int ?? 0
             completion(summary, temperature)
+        }
+    }
+    
+    func getParkingData(completion:@escaping ()->Void) {
+        self.parkingGarages.removeAll()
+        APIClient.getParkingJSON { (parkingDictionary) in
+            let resultsArray = parkingDictionary["results"] as? [[String:Any]] ?? []
+            for location in resultsArray {
+                let geometryKey = location["geometry"] as? [String:Any] ?? [:]
+                let locationKey = geometryKey["location"] as? [String:Any] ?? [:]
+                let parkingLat = locationKey["lat"] as? Double ?? 0.0
+                let parkingLong = locationKey["lng"] as? Double ?? 0.0
+                let nameKey = location["name"] as? String ?? ""
+                let openingHoursKey = location["opening_hours"] as? [String:Any] ?? [:]
+                let openNowKey = openingHoursKey["open_now"] as? Bool ?? false
+                //if the parking garage is currently open, then add it to the parkingGarages array
+                if openNowKey {
+                    let vicinityKey = location["vicinity"] as? String ?? ""
+                    let newParking = Parking(name: nameKey, street: vicinityKey, latitude: parkingLat, longitude: parkingLong, openNow: openNowKey)
+                    self.parkingGarages.append(newParking)
+                }
+            }
+            completion()
         }
     }
 }
